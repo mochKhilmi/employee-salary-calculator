@@ -1,0 +1,141 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body{
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #394867;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #eaeaea;
+}
+
+.container{
+    width: 50%;
+    background-color: #2e3a54;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+form{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.employeeDataInput{
+    display: flex;
+    flex-direction: column;
+}
+label{
+margin-bottom: 10px;
+color: #eaeaea;
+}
+
+input{ 
+    padding: 15px;
+    font-size: 1.5em;
+     margin-bottom: 18px; 
+     border-radius: 5px ; -webkit-border-radius: 5px ; -moz-border-radius: 5px ; -ms-border-radius: 5px ; -o-border-radius: 5px ; 
+     border-style: none;
+}
+input[type="submit"]{
+    width: 40%;
+    background-color: #21283b;
+    font-weight: bold;
+    color: #F4EEE0;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #a9b2c3;
+}
+
+.dataShow{
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #eaeaea;
+    color: #394867;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.dataShow h2{
+    margin-top: 15px;
+}
+
+.tableData{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+table{
+    text-align: center;
+    padding: 10px;
+}
+
+.tableData thead th{
+    padding: 10px;
+    background-color: #516798;
+    color: #eaeaea;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#closeTable{
+    position: absolute;
+    border-style: none;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #cbc9c9;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+button:hover{
+    transform: scale(102%);
+    cursor: pointer;
+    -webkit-transform: scale(102%);
+    -moz-transform: scale(102%);
+    -ms-transform: scale(102%);
+    -o-transform: scale(102%);
+}
+button:active{
+    transform: scale(89%);
+    -webkit-transform: scale(89%);
+    -moz-transform: scale(89%);
+    -ms-transform: scale(89%);
+    -o-transform: scale(89%);
+}

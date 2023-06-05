@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Penghitung Gaji</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Penghitung Gaji Karyawan</h1>
+      <form action="" id="employeeData">
+        <div class="employeeDataInput">
+          <label for="employeeName">Nama Karyawan:</label>
+          <input type="text" name="" id="employeeName" required />
+          <label for="dailySalary">Jumlah Gaji Harian:</label>
+          <input type="number" name="" id="dailySalary" required />
+          <label for="totalWorkDay">Total Hari Kerja Dalam Satu Bulan:</label>
+          <input type="number" name="" id="totalWorkDay" required />
+          <input type="submit" />
+        </div>
+      </form>
+
+      <div class="dataShow" style="display: none" id="dataShow">
+        <h2>Slip Gaji</h2>
+        <button id="closeTable" onclick="closeTable()">❌</button>
+        <div class="tableData">
+          <table>
+            <thead>
+              <th>Nama</th>
+              <th>Gaji Harian</th>
+              <th>Masa Kerja</th>
+            </thead>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
